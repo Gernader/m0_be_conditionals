@@ -54,6 +54,8 @@ puts "is nuber_students less than or equal to 21", number_students <=21
 # PART 2: Articulating what you are doing
 #-------------------
 
+puts "Part 2 Start"
+
 # For the following prompts, you will be given a line of code and your task is to type out a Comment,
 # in English, explaining what that line of code is doing, including what the comparison will evaluate to.
 # Be as technically precise as possible, but don't just copy and paste a definition from the readings.
@@ -92,6 +94,8 @@ puts attendees != meals
 # PART 3: Logical Operators
 #-------------------
 
+puts "Part 3 start"
+
 is_hungry = true
 finished_homework = false
 
@@ -108,16 +112,23 @@ age = 1
 
 # YOU DO:
 # Determine if the dog loves to play and loves treats
-
+puts loves_treats && loves_to_play
+# true && true expected true actual true
 
 # Determine if the dog loves to play and loves the dog park
+puts loves_to_play && loves_dog_park
+# true && false expected false actual false
 
 
 # Determine if the dog loves to play or loves the dog park
+puts loves_to_play || loves_dog_park
+# true || false expected true actual true
 
 
 # Determine if the dog loves to play and is a puppy
 # Assume that a dog is a puppy if it is less than 2 years old.
+puts age < 2
+# 1 < 2 expected true actual true
 
 # What did your final line of code evaluate to? Why do you think that is? Explain.
-# ANSWER:
+# ANSWER: final evaluated to true, i was aware of the conflicting variable from other sections and was careful to construct consice code around the limitations around variables already used.
