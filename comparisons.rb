@@ -61,19 +61,30 @@ puts "is nuber_students less than or equal to 21", number_students <=21
 
 puts 4 < 9
 #YOU DO: Explain.
+# prints comparison: bool: 4<9 true prints true
 
 books = 3
+# sets int in memory books: sets value at 3
 puts 4 < books
+#  prints comparison of 4 < (Books) books is 3 prints false
 # YOU DO: Explain.
 
+
+
 friends = 6
+# sets int in memory friends: sets value at 6
 siblings = 2
+# sets int in memory siblings: sets value at 2
 puts friends > siblings
+# prints comparison (friends)>(siblings) 6 > 2  prints true
 # YOU DO: Explain.
 
 attendees = 9
+# sets int in memory attendees: sets value at 9
 meals = 8
+# sets int in memory meals: sets value at 8
 puts attendees != meals
+# prints comparison (attendees) != (meals) 9 != 8 prints true
 # YOU DO: Explain.
 
 
